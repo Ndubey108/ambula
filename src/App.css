@@ -1,0 +1,165 @@
+
+
+section{
+    background:linear-gradient(to right,red,blue);
+    height:20vh;
+    margin-top:0px;
+
+}
+/*navigation*/
+nav ul{
+    display:flex;
+   background-color: black;
+  position:sticky;
+   width:100%;
+   justify-content: flex-end;
+   align-items: center;
+   height:10vh;
+   margin-bottom: 0px;
+}
+nav ul .link{
+    color:white;
+}
+nav ul li{
+    margin-right:6em;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+
+/*for all inputs*/
+input:focus{
+    border:2px solid rgb(42, 162, 227);
+}
+
+/* todo */
+.todo{
+text-align: center;
+
+}
+/*button*/
+.todo 
+button{
+background-color: green;
+color:white;
+border-radius: 3px;
+
+border:none;
+box-shadow: 1px 1px 1px rgb(161, 146, 146);
+}
+.todo input{
+    width:12em;
+    padding:6px;
+    margin-right:4px;
+    outline: none;
+    border-radius: 3px;
+  
+}
+.todo #btn{
+    padding:6px;
+    
+}
+
+/**/
+#remove{
+    background-color: red;
+    margin-left:6px;
+    padding:4px;
+}
+.List{
+    width:98%;
+    margin-right:3em;
+    margin-top:1rem;
+    list-style-type: none;
+    text-align: center;
+}
+.List:nth-child(2n){
+  
+    background-color: rgb(128, 207, 227);
+    padding:8px;
+}
+.List:nth-child(2n+1){
+    
+    background-color: rgb(236, 238, 82);
+    padding:10px;
+}
+p{
+    display:flex;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+/*shopping cart*/
+.shopsec{
+    border-top: 1px solid gray;
+
+        margin-left:2em;
+}
+.shopsec button{
+    background-color: rgb(12, 12, 243);
+    color:white;
+    padding:3px;
+    margin-left:4px;
+    border:none;
+}
+.border{
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    height:8vh;
+    box-shadow: 2px 2px 2px 2px lightgray;
+    margin-top: 2em;
+}
+
+/*bottom total countings of shopping cart and to do list*/
+.bottom{
+    display:flex;
+   margin-left:2em;
+    gap:20px;
+}
+
+/*weather*/
+.wp{
+    width:20%;
+    height:20vh;
+    box-shadow: 2px 2px 2px 2px lightgray;
+}
+.error{
+    color:red;
+    font-weight: 500;
+}
+
+/*contact form*/
+.contactForm  h2{
+    margin-left:4em;
+}
+.contactForm form{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    margin-left:4em;
+}
+.contactForm .input{
+    display:flex;
+    gap:10px;
+    outline:none;
+}
+.contactForm form input,textarea{
+    width:20em;
+  
+    border-radius: 5px;
+    padding:4px;
+}
+.contactForm form input:focus{
+    border:2px solid rgb(57, 116, 134);
+}
+
+.contactForm form button{
+    width:6em;
+    background-color: rgb(168, 12, 12);
+    color:white;
+    border-radius: 6px;
+    border:none;
+    padding:6px;
+}
